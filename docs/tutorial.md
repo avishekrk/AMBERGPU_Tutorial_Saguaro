@@ -53,6 +53,7 @@ gpubin/
 First you must must make a topology and coordinate file from a pdbfile. **This is also the first place you can trip up.**
 ```
 >mkdir structure
+>cd structure
 >./../gpubin/download_pdb.sh 2K6O
 ```
 2K60 is a 37-residue protein that was characterized by NMR. First we have to extract the firlst model and remove an HETATOMs. 
@@ -67,6 +68,7 @@ First you must must make a topology and coordinate file from a pdbfile. **This i
 ```
 ### Create the paramater and coordinate file
 ```
+module load python/2.7.9
 /../gpubin/makestructure.py 2K6OMD.pdb 10
 ```
 
