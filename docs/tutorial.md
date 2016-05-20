@@ -3,11 +3,14 @@ by Avishek Kumar avishek@asu.edu
 ## Description 
 This is a tutorial on how to run a AMBER14 GPU-acceleration MD Simulation on Saguaro/NGCC and how to automate an MD workflow. 
 
+---
+
 ## Log-in to Saguaro
 ```
 ssh asuriteid@saguaro.fulton.asu.edu
 ```
-## Git Tutorial Materials 
+## Git Tutorial Materials
+The material, scripts and tutorials, are stored in a git repo. 
 ```
 git clone --depth 1 https://github.com/avishek-r-kumar/AMBERGPU_Tutorial_Saguaro.git 
 ```
@@ -16,6 +19,7 @@ If you get an error that says you cannot open a display use the following comand
 unset SSH_ASKPASS
 ```
 
+--
 
 ## GPUBIN
 GPU Bin contains all scripts and codes needed to run the simulations
@@ -123,3 +127,12 @@ Check status of jobs by queue
 ```
 squeue -p <partition-name>
 ```
+
+# Furthur Reading
+
+### Reproducible Research 
+
+- [Best Practices in Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.1001745)
+- [Reproducible Research Software](http://software.ac.uk/attach/ChangingResearchSoftwareAttitudes.pdf)
+- [SWCarp Git](http://swcarpentry.github.io/git-novice/)
+- [SWCarp Bash](http://swcarpentry.github.io/shell-novice/)
