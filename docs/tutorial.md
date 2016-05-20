@@ -1,5 +1,6 @@
 # GPU Tutorial 
 by Avishek Kumar avishek@asu.edu
+---
 ## Description 
 This is a tutorial on how to run a AMBER14 GPU-acceleration MD Simulation on Saguaro/NGCC and how to automate an MD workflow. 
 
