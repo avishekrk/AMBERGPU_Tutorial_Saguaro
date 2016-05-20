@@ -1,0 +1,11 @@
+energy minimization stage 1
+ &cntrl
+  imin=1, maxcyc=50000, ncyc=25000,
+  cut=9.0, ntb=1,
+  ntc=1, ntf=1,
+  ntpr=10,
+  ntr=1,
+  restraintmask=':1-999',
+  restraint_wt=10.0
+ /
+
