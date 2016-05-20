@@ -137,3 +137,7 @@ squeue -p <partition-name>
 - [Reproducible Research Software](http://software.ac.uk/attach/ChangingResearchSoftwareAttitudes.pdf)
 - [SWCarp Git](http://swcarpentry.github.io/git-novice/)
 - [SWCarp Bash](http://swcarpentry.github.io/shell-novice/)
+
+# Acknowledgements
+
+Configuration files from Lucas Sawle
