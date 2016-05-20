@@ -9,7 +9,7 @@ ssh asuriteid@saguaro.fulton.asu.edu
 ```
 ## Git Tutorial Materials 
 ```
-git clone --depth 1 <repo>
+git clone --depth 1 https://github.com/avishek-r-kumar/AMBERGPU_Tutorial_Saguaro.git 
 ```
 If you get an error that says you cannot open a display use the following comand. 
 ```
