@@ -91,8 +91,15 @@ srun -p cuda ./../gpubin/minimize.sh 2K6O_TIP3P.prmtop 2K6O_TIP3P.incrd
 > cd production 
 > cp -v ./../minimize/2K6O_TIP3P.prmtop
 > cp -v ./../minimize/2K6O_TIP3P-heatup.rst
-> srun -p cuda ./../gpurun/production.sh 2K6)_TIP3P.prmtop 2K6O_TIP3P-heatup.rst   
+> srun -p cuda ./../gpurun/production.sh 2K6O_TIP3P.prmtop 2K6O_TIP3P-heatup.rst   
 ```
+If you get the error that the grid is unstable run for 100ps on a CPU-node. 
+```
+srun -p serial ./../gpurun/test_cpu_prouduction.sh 2K6O_TIP3P.prmtop 2K6O_TIP3P-heatup.rst
+```
+
+
+
 # Appendix: SLURM
 Submit a job via commandline 
 ```
